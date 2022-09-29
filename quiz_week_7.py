@@ -106,7 +106,7 @@ def cal_upper_and_lower():
 
 
 
-#6 
+#6 Write a Python program that lists out all the default as well as custom properties of the class.
 
 class Student:
     def __init__(self, name, age):
@@ -117,3 +117,29 @@ student = Student("Samuel", 95)
 print("Student class's object all properties")
 
 print(dir(student))
+
+
+#7 Write a Program in Python to implement a Stack Data Structure using Class and Objects, with push, pop, and traversal methods.
+my_stack = [] 
+# append() function to push
+# element in the stack
+my_stack.append('a')
+my_stack.append('b')
+my_stack.append('c')
+ 
+print('Initial stack')
+print(my_stack)
+
+print('\nElements popped from stack:')
+print(my_stack.pop())
+print(my_stack.pop())
+print(my_stack.pop())
+ 
+print('\nStack after elements are popped:')
+print(my_stack)
+
+
+#8 Using list comprehension, write a program that takes a list of numbers and returns a list of the squares of the numbers.
+data=[1,2,3,4,5,6,7] 
+result = [i*i for i in data] 
+print(result)
