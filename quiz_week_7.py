@@ -103,3 +103,17 @@ def cal_upper_and_lower():
 
     print("UPPER:", u)
     print("lower:", l)
+
+
+
+#6 
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+student = Student("Samuel", 95)
+print("Student class's object all properties")
+
+print(dir(student))
