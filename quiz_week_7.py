@@ -73,3 +73,33 @@ cat = Cat()
 dog = Dog()
 fish = Fish()
 cow = Cow()
+
+
+#2 
+def snail_solver():
+    pass
+
+
+#3 Return largest 
+
+def return_largest_number():
+    list_of_numbers = [22,45,78,90,100,23,1]
+    list_of_numbers.sort()
+    return list_of_numbers[-1]
+
+#4 
+def cal_upper_and_lower():
+    phrase = input("Type in: ")
+    phrase = list(phrase)
+
+    u, l = 0, 0
+    for i in phrase:
+        if i.isupper():
+            u = u + 1
+        if i.islower():
+            l = l + 1
+        else:
+            pass
+
+    print("UPPER:", u)
+    print("lower:", l)
