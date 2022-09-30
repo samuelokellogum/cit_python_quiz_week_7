@@ -71,10 +71,10 @@ class Cow(Animal):
     def talk():
         print('Muuu')
 
-cat = Cat()
-dog = Dog()
-fish = Fish()
-cow = Cow()
+cat = Cat('kitty', 2, 'milk')
+dog = Dog('mimi', 2, 'smallfish')
+fish = Fish('jelly', 2, 're')
+cow = Cow('freshian', 2, 'grass')
 
 
 #2 
@@ -160,10 +160,10 @@ leviscr = game(levi, tri)
 davinscr = game(davin, tri)
 
 scr = []
-scr.append(zackscr.gaming())
-scr.append(johnyscr.gaming())
-scr.append(kinascr.gaming())
-scr.append(usherscr.gaming())
+scr.append(davidscr.gaming())
+scr.append(collinsscr.gaming())
+scr.append(leviscr.gaming())
+scr.append(davinscr.gaming())
 
 scrsort = sorted(scr)
 for el in scrsort:
